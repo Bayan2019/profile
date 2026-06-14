@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: 'https://bayan2019.github.io',
+  base: '/profile/',
 })
