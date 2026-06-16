@@ -4,22 +4,35 @@
 // import heroImg from './assets/hero.png'
 
 // import bayan from './assets/image13_watercolor2.png'
-import Header from './components/Header'
+// import Header from './components/Header'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 
 import Resume from './pages/Resume/Resume'
+import HomePage from './pages/Resume/HomePage';
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header />
-      {/* <img src={bayan} alt="User Profile" width={200} height={200} />
-      <h1 className='text-3xl font-bold underline'>
-        Hello
-      </h1> */}
-      <Resume />
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/profile' element={<HomePage />} />
+        {/* <Route path='/map' element={<MapComponent />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/login-code' element={<LoginCode  />} />
+        <Route path='/profile' element={<Profile  />} />
+        */}
+        <Route path='/about' element={<Resume />} />
+        {/*<Route path='/news' element={<NewsPage />} />
+        <Route path='/news/:id' element={<TheNewsPage />} />
+        <Route path='/polls' element={<Polls />} />
+        <Route path='/objects/:id' element={<TheObjectPage />} /> */}
+      </Routes>
+    </BrowserRouter>
+  );
     </>
   )
 }

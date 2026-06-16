@@ -4,13 +4,35 @@ nav {
   background-color: #EAFAF4;
 }
 
-a.nav-link {
+nav > .mx-auto > .flex > nav > a {
+  text-decoration: none;
   color: #6EDEAF;
 }
 
 #brand {
   color: #1C7C54;
+  /* text-decoration: none; */
   font-weight: bold;
   font-size: 27px;
   font-family: 'Rubik Maze';
 }
+
+.brand {
+  font-family: 'Rubik Maze';
+}
+
+nav > .mx-auto > .flex > a  {
+  text-decoration: none;
+}
+
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  .animate-pulse {
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  .animate-spin-slow {
+    animation: spin 3s ease-in-out infinite;
+  }

@@ -1,2 +1,7 @@
 @import "tailwindcss";
 /* @import url('https://googleapis.com'); */
+
+
+.animate-pulse {
+  animation: pulse 3s ease-in-out infinite;
+}
