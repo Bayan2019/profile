@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 
 import Resume from './pages/Resume/Resume'
-import HomePage from './pages/Resume/HomePage';
+import HomePage from './pages/HomePage';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,7 +23,7 @@ function App() {
         <Route path='/login-code' element={<LoginCode  />} />
         <Route path='/profile' element={<Profile  />} />
         */}
-        <Route path='/about' element={<Resume />} />
+        <Route path='/profile/about' element={<Resume />} />
         {/*<Route path='/news' element={<NewsPage />} />
         <Route path='/news/:id' element={<TheNewsPage />} />
         <Route path='/polls' element={<Polls />} />

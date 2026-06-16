@@ -1,7 +1,7 @@
 export const NAVS = [
-  {id: '/about', label: 'About Me'},
-  {id: '/education', label: 'Education'},
-  {id: '/experience', label: 'Experience'},
+  {id: '/profile/about', label: 'About Me'},
+  {id: '/profile/education', label: 'Education'},
+  {id: '/profile/experience', label: 'Experience'},
 ];
 
 export const SOCIALS = [
