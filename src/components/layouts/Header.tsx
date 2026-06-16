@@ -29,30 +29,24 @@ const Header = () => {
     }, []);
     return (
         <header>
-                    <nav
-            className={`fixed  top-0 left-0 right-0 z-1000 w-full py-0 my-0 transition-all duration-300 bg-cyan-400 ${!isScrolled 
+            <nav
+                className={`fixed  top-0 left-0 right-0 z-1000 w-full py-0 my-0 transition-all duration-300 bg-cyan-400 ${!isScrolled 
                 ? 'backdrop-blur-lg' : 'bg-transparent'}`}
-        >
+            >
             <div className='max-w-[1320px] mx-auto'>
                 <div className='flex items-center justify-between'>
                     {/* Logo */}
                     <a href='/' className='flex items-center my-0 py-0 inset-0'>
                                 {/* <Code className='w-6 h-6' /> */}
-                        {/* <img src="/images/default.png" alt="Company Logo" className='my-0 py-0 rounded-full hover:scale-110'
-                            style={{
-                                width: "140px",
-                                height: "70px"
-                            }}
-                        /> */}
                         <span id='brand'>SAPAR</span>
                     </a>
 
                     {/* Link for Everyone */}
-                    <nav className='hidden md:flex items-center gap-7'>
+                    <nav className='hidden md:flex items-center gap-7 bg-transparent'>
                         {
                             NAVS.map((link)=> (
                                 <a href={link.id}
-                                    className='text-base font-bold transition-all duration-300'
+                                    className='text-base font-bold transition-all duration-300 inset-0'
                                 >
                                     {link.label}
                                 </a>
@@ -61,7 +55,7 @@ const Header = () => {
                     </nav>
 
                     {/* Authorization links */}
-                    <nav className='hidden md:flex items-center gap-7'>
+                    <nav className='hidden md:flex items-center gap-7 bg-transparent'>
                         {/* {isLoggedIn ? (
                         <>
                             <Nav.Link href="/profile">
