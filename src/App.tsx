@@ -15,8 +15,6 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
-  return (
     <BrowserRouter>
       <Routes>
         <Route path='/profile' element={<HomePage />} />
@@ -33,8 +31,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-    </>
-  )
 }
 
 export default App
