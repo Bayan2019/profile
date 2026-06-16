@@ -5,6 +5,10 @@ const HomePage = () => {
     return (
         <>
             <Header />
+
+            <h2>Welcome!</h2>
+            <p>React makes it easy to build reusable components for your interface.</p>
+
             <Footer />
         </>
     )
