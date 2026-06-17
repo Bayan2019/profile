@@ -1,7 +1,7 @@
 export const NAVS = [
-  {id: '/profile/about', label: 'About Me'},
-  {id: '/profile/education', label: 'Education'},
-  {id: '/profile/experience', label: 'Experience'},
+  {id: '/about', label: 'About Me'},
+  {id: '/education', label: 'Education'},
+  {id: '/experience', label: 'Experience'},
 ];
 
 export const SOCIALS = [
@@ -23,11 +23,11 @@ export const SOCIALS = [
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/bayan-saparbayeva/",
-    icon: "/profile/socials/linkedin.svg",
+    icon: "/socials/linkedin.svg",
   },
   {
     name: "GitHub",
     href: "https://github.com/Bayan2019",
-    icon: "/profile/socials/github.svg",
+    icon: "/socials/github.svg",
   },
 ];

@@ -1,6 +1,7 @@
 import { Heart, Mail, MapPin } from "lucide-react";
 import {SOCIALS} from "../../constants/intex.ts"
 import { FadeIn } from "../../animations/FadeIn.tsx";
+import bayan from "../../../public/BayanSap.svg"
 
 export default function Footer() {
     return (
@@ -78,7 +79,7 @@ export default function Footer() {
                             </p>
                             <p className="flex items-center gap-2 text-gray-400 text-sm">
                                 Built with <Heart className="w-4 h-4 text-primary fill-primary animate-pulse" /> by 
-                                <img src="/profile/BayanSap.svg" className="w-16 h-16 rounded-full" alt="Sapar" />
+                                <img src={bayan} className="w-16 h-16 rounded-full" alt="Sapar" />
                             </p>
                         </div>
                     </div>
