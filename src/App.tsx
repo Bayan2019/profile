@@ -17,13 +17,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/profile' element={<HomePage />} />
+        <Route path='/' element={<HomePage />} />
         {/* <Route path='/map' element={<MapComponent />} />
         <Route path='/login' element={<Login />} />
         <Route path='/login-code' element={<LoginCode  />} />
         <Route path='/profile' element={<Profile  />} />
         */}
-        <Route path='/profile/about' element={<Resume />} />
+        <Route path='/about' element={<Resume />} />
         {/*<Route path='/news' element={<NewsPage />} />
         <Route path='/news/:id' element={<TheNewsPage />} />
         <Route path='/polls' element={<Polls />} />
