@@ -10,6 +10,8 @@ import './App.css'
 
 import Resume from './pages/Resume/Resume'
 import HomePage from './pages/HomePage';
+import Projects from './pages/Projects/Projects';
+import ProjectWhirl from './pages/ProjectWhirl';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,7 +25,9 @@ function App() {
         <Route path='/login-code' element={<LoginCode  />} />
         <Route path='/profile' element={<Profile  />} />
         */}
-        <Route path='/about' element={<Resume />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/projects/resume' element={<Resume />} />
+        <Route path='/projects/whirl' element={<ProjectWhirl />} />
         {/*<Route path='/news' element={<NewsPage />} />
         <Route path='/news/:id' element={<TheNewsPage />} />
         <Route path='/polls' element={<Polls />} />

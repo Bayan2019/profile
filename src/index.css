@@ -1,2 +1,11 @@
 @import "tailwindcss";
 /* @import url('https://googleapis.com'); */
+
+body {
+    text-align: center;
+}
+
+#root {
+    text-align: center;
+    /* display: flex; */
+}

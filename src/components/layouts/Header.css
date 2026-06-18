@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+}
+
+nav {
+  background-color: #EAFAF4;
+}
+
+nav > .mx-auto > .flex > nav > a {
+  text-decoration: none;
+  color: #6EDEAF;
+  background: transparent;
+  background-color: transparent;
+}
+
+#brand {
+  color: #1C7C54;
+  /* text-decoration: none; */
+  font-weight: bold;
+  font-size: 27px;
+  font-family: 'Rubik Maze';
+}
+
+nav > .mx-auto > .flex > a  {
+  text-decoration: none;
+}

@@ -2,6 +2,7 @@ import { Heart, Mail, MapPin } from "lucide-react";
 import {SOCIALS} from "../../constants/intex.ts"
 import { FadeIn } from "../../animations/FadeIn.tsx";
 import bayan from "../../../public/BayanSap.svg"
+import "./Footer.css"
 
 export default function Footer() {
     return (

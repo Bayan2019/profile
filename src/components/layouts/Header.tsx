@@ -9,6 +9,7 @@ import { FaUserPlus } from 'react-icons/fa';
 import { AiOutlineLogin } from 'react-icons/ai';
 import { PiXBold } from 'react-icons/pi';
 import { MdMenu } from 'react-icons/md';
+import './Header.css'
 
 const Header = () => {
         const [isMenuOpen, setIsMenuOpen] = useState(false);

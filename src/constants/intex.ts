@@ -1,5 +1,5 @@
 export const NAVS = [
-  {id: '/about', label: 'About Me'},
+  {id: '/projects', label: 'Projects'},
   {id: '/education', label: 'Education'},
   {id: '/experience', label: 'Experience'},
 ];
