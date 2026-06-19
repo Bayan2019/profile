@@ -3,10 +3,11 @@ import { FaCheck } from "react-icons/fa";
 const WhirlCall4Action2 = () => {
     return (
         <section
-            style={{width:'1230px', height:'370px', top:'4502px', left:'105px', alignContent:'center', alignItems:'center', textAlign:'center', margin:'auto'}}
+            style={{width:'1230px', height:'370px', left:'105px', padding:'0px auto',
+                alignContent:'center', alignItems:'center', textAlign:'center', margin:'0px auto'}}
         >
             <div
-                style={{backgroundColor:'#E6F7FF', width:'1130px', height:'370px', margin:'auto'}}
+                style={{backgroundColor:'#E6F7FF', width:'1130px', height:'370px', margin:'0px auto'}}
             >
                 <div
                     style={{width:'502.90625px', height:'258px', top:'63.98px', left:'64px', textAlign:'left', paddingLeft:'6px'}}

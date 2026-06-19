@@ -3,7 +3,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const FooterWhirl = () => {
     return (
-        <footer style={{width:'1230px', height:'352px', left:'105px'}}>
+        <footer style={{width:'1230px', height:'352px', left:'105px', margin:'0px auto', padding:'0px auto'}}>
             <div
                 style={{width:'1130px', height:'216px', left:'50px', display:'inline-flex'}}
             >
@@ -62,19 +62,22 @@ const FooterWhirl = () => {
                 </div>
             </div>
             <div
-                style={{width:'1130px', height:'1px', left:'50px', top:'280.02', backgroundColor:'#DEE5EB'}}
+                style={{width:'1130px', height:'1px', left:'50px', top:'280.02', backgroundColor:'#DEE5EB', margin:'0px auto'}}
             >
             </div>
             <div
-                style={{marginTop: '8px', width:'1130px', height:'35px', left:'50px', top:'317px', display: 'flex', flexDirection: 'row', justifyContent:'space-between'}}
+                style={{marginTop: '8px', width:'1130px', height:'35px', left:'50px', top:'317px', 
+                    display: 'flex', flexDirection: 'row', justifyContent:'space-between', 
+                    padding:'0px auto', margin:'0px auto'}}
             >
                 <div
-                    style={{width:'390px', height:'19px', top:'0.02px', fontSize:'13px'}}
+                    style={{width:'390px', height:'19px', top:'0.02px', fontSize:'13px', justifyContent:'left'}}
                 >
                     © 2022 Whirl. All Rights Reserved. Illustrations by <span style={{color:'#0070A0'}}>Streamline</span>
                 </div>
                 <div
-                    style={{width:'106px', height:'22.64px', left:'1024px', top:'7.17px', display: 'inline-flex', justifyContent:'space-between'}}
+                    style={{width:'106px', height:'22.64px', left:'1024px', top:'7.17px', display: 'inline-flex', 
+                        justifyContent:'space-between', alignItems:'end'}}
                 >
                     <FaTwitter />
                     <FaLinkedin />

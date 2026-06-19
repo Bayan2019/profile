@@ -3,13 +3,15 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 const WhirlCover = () => {
     return (
         <section
-            style={{width:'1440px', height:'659px'}}
+            style={{width:'1440px', height:'479px', margin:'0px auto', paddingBottom:'0px'}}
         >
             <div
-                style={{width:'1130px', height:'433.578125px', top:'145px', left:'155px', display:'inline-flex'}}
+                style={{width:'1130px', height:'433.578125px', top:'145px', left:'155px', 
+                    display:'inline-flex', paddingBottom:'0px', marginBottom:'0px'}}
             >
                 <div
-                    style={{width:'525px', height:'321px', top:'56.28px', textAlign:'left'}}
+                    style={{width:'525px', height:'321px', top:'56.28px', textAlign:'left', 
+                        paddingBottom:'0px', marginBottom:'0px'}}
                 >
                     <h2 style={{fontFamily:'Fraunces', fontSize:'42px'}}>
                         Your everyday tasks, automated.
@@ -29,7 +31,9 @@ const WhirlCover = () => {
                         >Learn more <MdOutlineArrowForwardIos style={{marginTop:'5px'}} /></div>
                     </div>
                 </div>
-                <img src="/images/IMAGE-2.png" style={{width:'452px', height:'422px', left:'678px', borderRadius:'0', border:'none'}}/>
+                <img src="/images/IMAGE-2.png" 
+                    style={{width:'452px', height:'422px', left:'678px', borderRadius:'0', border:'none',
+                        paddingBottom:'0px', marginBottom:'0px'}}/>
             </div>
         </section>
     )

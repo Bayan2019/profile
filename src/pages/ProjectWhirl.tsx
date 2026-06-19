@@ -13,9 +13,9 @@ import WhirlTasks from "../components/whirl/WhirlTasks";
 const ProjectWhirl = () => {
     return (
         // <>
-        <div style={{width:'1440px', height:'5384px', padding:'auto'}}>
+        <div style={{width:'1440px', padding:'auto'}}>
             <HeaderWhirl />
-            <main style={{width:'1440px', height:'4951.984375px'}}>
+            <main style={{width:'1440px', alignContent:'center', alignItems:'center', padding:'0px auto'}}>
                 <WhirlCover />
                 <WhirlPartners />
                 <WhirlPros />
