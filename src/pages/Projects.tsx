@@ -1,7 +1,7 @@
-import Footer from "../../components/layouts/Footer";
-import Header from "../../components/layouts/Header";
-import { ProjectCard } from "../../components/ProjectCard";
-import { PROJECTS } from "../../constants/projects";
+import Footer from "../components/layouts/Footer";
+import Header from "../components/layouts/Header";
+import { ProjectCard } from "../components/ProjectCard";
+import { PROJECTS } from "../constants/projects";
 
 const Projects = () => {
     return (

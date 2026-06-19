@@ -1,7 +1,7 @@
 import './Resume.css'
-import bayan from '../../assets/image13_watercolor2.png'
-import Header from '../../components/layouts/Header';
-import Footer from '../../components/layouts/Footer';
+import bayan from '../../../assets/image13_watercolor2.png'
+import Header from '../../../components/layouts/Header';
+import Footer from '../../../components/layouts/Footer';
 
 const Resume = () => {
     return (

@@ -8,10 +8,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 
-import Resume from './pages/Resume/Resume'
+import Resume from './pages/Projects/Resume/Resume'
 import HomePage from './pages/HomePage';
-import Projects from './pages/Projects/Projects';
-import ProjectWhirl from './pages/ProjectWhirl';
+import Projects from './pages/Projects';
+import ProjectWhirl from './pages/Projects/ProjectWhirl';
 
 function App() {
   // const [count, setCount] = useState(0)
