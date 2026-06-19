@@ -48,7 +48,6 @@ const HeaderWhirl = () => {
                     </div>
                 </div>
             </nav>
-            <div style={{width:'1440px', height:'75px'}}></div>
         </header>
     )
 }
