@@ -5,7 +5,7 @@ const WhirlPros = () => {
     return (
         <section
             style={{width:'1130px', height:'250px', left:'155px', 
-                margin:'0px auto', padding:'0px', display:'inline-flex',
+                margin:'24px auto', padding:'0px', display:'inline-flex',
                 justifyContent:'space-between'}}
         >
             <div
