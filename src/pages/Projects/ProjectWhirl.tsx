@@ -12,10 +12,10 @@ import WhirlTasks from "../../components/whirl/WhirlTasks";
 
 const ProjectWhirl = () => {
     return (
-        // <>
         <div style={{width:'1440px', padding:'auto'}}>
             <HeaderWhirl />
-            <main style={{width:'1440px', alignContent:'center', alignItems:'center', padding:'0px auto'}}>
+            <main style={{width:'1440px', alignContent:'center', alignItems:'center', 
+                padding:'0px auto', margin:'0px auto'}}>
                 <WhirlCover />
                 <WhirlPartners />
                 <WhirlPros />
@@ -28,7 +28,6 @@ const ProjectWhirl = () => {
             </main>
             <FooterWhirl />
         </div>
-        // </>
     )
 }
 

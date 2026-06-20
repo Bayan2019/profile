@@ -4,7 +4,9 @@ import { PiMoneyWavy } from "react-icons/pi";
 const WhirlPros = () => {
     return (
         <section
-            style={{width:'1130px', height:'250px', left:'155px', margin:'0px auto', display:'inline-flex'}}
+            style={{width:'1130px', height:'250px', left:'155px', 
+                margin:'0px auto', padding:'0px', display:'inline-flex',
+                justifyContent:'space-between'}}
         >
             <div
                 style={{width:'355px', height:'250px',  backgroundColor:'#FAEA73', textAlign:'left', padding:'25px'}}
@@ -23,7 +25,7 @@ const WhirlPros = () => {
                 </p>
             </div>
             <div
-                style={{width:'355px', height:'250px', backgroundColor:'#CCEFF6', left:'387px', margin:'0px 5px',
+                style={{width:'355px', height:'250px', backgroundColor:'#CCEFF6', left:'387px', margin:'0px',
                     textAlign:'left', padding:'25px'
                 }}
             >
